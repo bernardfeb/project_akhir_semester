@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info & Price BStore</title>
+</head>
+<style>
+    * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .circular-shape {
+            display: flex;
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+        }
+        nav {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 20px;
+            height: 125px;
+            background: red;
+        }
+
+        li {
+            list-style-type: none;
+            display: inline-block;
+            margin-left: 30px;
+        }
+
+        li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .menu-icon {
+            display: none;
+            width: 50px;
+            height: 50px;
+        }
+
+        .menu-icon span {
+            display: block;
+            width: 40px;
+            height: 5px;
+            background-color: black;
+            margin: 8px auto;
+        }
+
+        h1 {
+            margin-left: 80px;
+            font-size: 45px;
+            position: relative;
+            right: 10%;
+        }
+        h2 {
+            display: block;
+            width: 100%;
+            border-color: crimson;
+            position: relative;
+            text-align: center;
+            border: 5px solid;
+            font-size: 300%;
+        }
+        .yonex {
+            float: left;
+            width: 20%;
+            padding: 5px;
+        }
+        .shoe {
+            float: left;
+            width: 20%;
+            padding: 5px;
+        }
+        .bags {
+            float: left;
+            width: 20%;
+            padding: 5px;
+        }
+        .socks {
+            float: left;
+            width: 20%;
+            padding: 5px;
+        }
+        .sock1 {
+            float: left;
+            width: 100%;
+            margin-left: 488px;
+        }
+        .clothes {
+            float: left;
+            width: 20%;
+            padding: 5px;
+            margin-top: 620px;
+            margin-left: -550px;
+        }
+        .dplay {
+            display: flex;
+            font-size: 21px;
+            margin-top: 250px;
+            width: 115%;
+            height: 100%;
+            margin-left: 110px;
+        }
+       .socking {
+        margin-right: 100px;
+       }
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="circular-shape">
+                <img src = "page.png" alt="Badminton" style="border-radius: 100%;">
+            </div>
+
+            <h1>
+                <b>Bstore</b>
+            </h1>
+            <div class="btn">
+                <span class="dark-mode-icon"></span>
+            </div>
+
+            <div class="search">
+                <form action="https://www.google.com/search">
+                </div>
+                    <input class="search-entry" type="text" name="q" id="" placeholder="Search For Other Items!" style="height: 50%; width: 45%; font-size: 100%;">
+                </form>
+            <div class="button">
+                <a style="font-size: 50px; text-decoration: none;" href="#">🔎</a>
+            </div>
+            </script>
+        </nav>
+    </header>
+    <div>
+    <h2>PRICE</h2>
+    <div class="latest">
+        <div class="yonex">
+            <img src="88dplay.jpg" alt="" style="float: left; margin-left: 120px; width: 100%; border: 5px solid;">
+        <div class="dplay">
+            <a>Yonex 88D Play Rp 695.000,00</a>
+        </div>
+        </div>
+        <div class="yonex">
+            <img src="88spro.jpg" alt="" style="float: left; width: 100%; margin-left: 280px; border: 5px solid;">
+            <p style="margin-left: 265px; width: 120%; font-size: 21px;">Yonex 88S Pro Rp 2.500.000,00</p>
+        </div>
+        <div class="yonex">
+            <img src="ss2020.jpg" alt="" style="float: left; width: 100%; margin-left: 420px; border: 5px solid;">
+            <a style=" display: flex; margin-left: 410px; width: 120%; font-size: 21px;">Lining SS 2020 Rp 500.000,00</a>
+        </div>
+    </div>
+    <div class="shoes">
+        <div class="shoe">
+            <img src="shoe1.jpg" alt="" style="float: right; margin-right: 480px; width: 100%; margin-top: 120%; border: 5px solid; margin-bottom: 40px;">
+            <a style="display: flex; margin-left: -490px; width: 115%; font-size: 21px;">Yonex Power Cushion SHB 50 EX White Mint Rp 950.000,00</a>
+        </div>
+        <div class="shoe">
+            <img src="shoe2.jpg" alt="" style="float: right; width: 100%; margin-right: 310px; margin-top: 120%;border: 5px solid;">
+            <a style="display: flex; margin-top: 600px; font-size: 21px; margin-left: -350px;">Lining Lin Dan II Hero Rp 3.400.000,00</a>
+        </div>
+    </div>
+    <div class="bags" style="display: flex; margin-right: 10px;">
+        <div class="bag">
+            <img src="bag1.jpg" alt="" style="float: left; margin-left: 120px; width: 260px; border: 5px solid; height: 260px;">
+            <a style="display: flex; margin-left: 60px; font-size: 21px; width: 110%;">Yonex Bag PC 6 Limited Rp 4.000.000,00</a>
+        </div>
+        <div class="bag">
+            <img src="bag2.jpg" alt="" style="float: left; width: 260px; margin-left: 170px; border: 5px solid; height: 260px;">
+            <a style="display: flex; margin-left: 140px; font-size: 21px; width: 110%;">Victor Bag BR 8303 Rp 1.300.000,00</a>
+        </div>
+        <div class="bag">
+            <img src="bag4.jpg" alt="" style="float: left; width: 260px; margin-left: 150px; border: 5px solid; height: 260px;">
+            <a style="display: flex; margin-left: 100px; font-size: 21px; width: 110%;">Yonex Bag BA 92029 Rp 2.089.000,00</a>
+        </div>
+    </div>
+    <div class="socks">
+        <div class="sock">
+            <img src="sock2.jpg" alt="" style="float: right; margin-right: -50px; width: 100%; margin-top: 120%; border: 5px solid; margin-bottom: 40px;">
+        <div>
+            <div class="socking">
+            <a style="display: flex; margin-left: 55px; font-size: 21px; width: 150%;">Lining AWLL063 Socks Rp 50.000,00</a>
+            </div>
+        </div>
+        </div>
+        <div class="sock1">
+            <img src="sock3.jpg" alt="" style="float: left; width: 100%; margin-top: -347px; border: 5px solid;">
+            <a style="display: flex; margin-left: -20px; font-size: 21px; width: 150%; margin-top: -50px;">Victor SK190A Socks Rp 80.000,00</a>
+        </div>
+    </div>
+    <div class="clothes" style="display: flex;">
+        <div class="cloth">
+            <img src="kaos1.jpg" alt="" style="float: left; margin-left: 120px; width: 260px; border: 5px solid; height: 260px; margin-top: 50px;">
+            <a style="margin-left: 70px; font-size: 21px; width: 100%; display: flex;">Lining Warrior Turbodri Rp 450.000,00</a>
+        </div>
+        <div class="cloth">
+            <img src="kaos2.jpg" alt="" style="float: left; width: 260px; margin-left: 170px; border: 5px solid; height: 260px; margin-top: 50px;">
+            <a style="margin-left: 120px; font-size: 21px; width: 100%; display: flex;">Lining T-Shirt ATSS993 Rp 230.000,00</a>
+        </div>
+        <div class="cloth">
+            <img src="kaos3.jpg" alt="" style="float: left; width: 260px; margin-left: 150px; border: 5px solid; height: 260px; margin-top: 45px;">
+            <a style="margin-left: 100px; font-size: 21px; width: 110%; display: flex;">Lining T-Shirt Powerful Black Rp 310.000,00</a>
+        </div>
+    </div>
+    <div class="rafael" style="background-color: red; height: 160px; margin-top: 330px; display: inline-flex; width: 100%;justify-content: space-between;">
+        <div class="logo">
+            <img src="page.png" style="height: 125px; width: 125px; margin-top: 20px; margin-left: 40px;">
+            <b style="font-size: 24px; position: relative; bottom: 50px; left: 45px; border: 5px solid;">CALL CENTER = +62 82289444496</b>
+        </div>
+        <div class="sosmed" style="font-size: 3em; margin-top: 42px; margin-right: 75px;">
+            <p>🕊️     📸     📞     ✉️</p>
+        </div>
+    </div>
+</body>
+</html>
